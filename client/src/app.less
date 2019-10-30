@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "iconfont";
+    src: url('./font/iconfont.eot?t=1572143349296');
+    /* IE9 */
+    src: url('./font/iconfont.eot?t=1572143349296#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMEAAsAAAAAB5AAAAK2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqDGIMZATYCJAMICwYABCAFhG0HMRvABhHVk09kfxgw5abGAUrdZ1LvpDdVek52YbTQuMr5pcbCpKTMzLwGT5/df7e6683vL0YQUsBrRHtyIwURrkPYQTIbczYCYzKUhOc7y5i0nF6aPlj/6nOCx5qodnvoT1rmjZ9Q45HUA16BirL+a6FrpsbIBUAdDPk8l9O7Bvhh6wPlsuawG3zUCzDueS/AvbBNViABeCA1jF3QEo9DgBCSFZJGo3MQh2KOE0Dm27Om4DJZFGUNh+BVLFVkM1mcWWM+sCl4v/ygPA4MAYs5tXdm03RqP/MZu9hfzMUj0E0XBtgqsEAhUJDBymg3NqoWsoSoVSUd22IKfMb3PT+y1S8P8TDpYQAkQu016Rz9pdINAArrqxK8xw4NXJG55g4d3cMjQ0++7MsevllyzD1g+PHnXYG7bskhDz58aFOLhx49otaNPHnyk6T0kCXS5Sb/e7Tj/v2f2+8dqO2L9W4uHLj0yi1dLHHrwtmRXrdcVyuH1evJNi7Sqk0eN3tizrjsDW2Oy5l4F6v8bht6zp6Yc7fiz8+u3jsw2HBHH0PgyZbPHBmXAvDsRUUwwl+s7GISuBv0Cz9K17FJNYPpME+sRXHDKj1sADJCAB8zGeP10Hg8krDguA7CEEQSLI5MUsWFCBBKJTwcNQihQMvqUGItwCIaDORbASBEOQVDBJdhiXKLVPErBEjwCx5RsQhhWGwZSnYsu1TwqfiB1y/Ybw7IDmgpZK7QjL2npA2BZIcS2QXotjr5xhwDlClmRF9mT5WAhH0wwGnoeQyhsINvbVmq4azdpqontd7sJ0oUfCp+4PUL9psD8tprqfD6FZqx95QGXlV5hxLZvUO31elAzq1BJ96tnBN9mT1VAhL2wQBh9KwqQ1g9yMG3tqwB5XDWRq2oq7W1vN1/ux1ACKbLiNXXYnpsmxx3EwkAAA==') format('woff2'),
+        url('./font/iconfont.woff?t=1572143349296') format('woff'),
+        url('./font/iconfont.ttf?t=1572143349296') format('truetype'),
+        /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+        url('./font/iconfont.svg?t=1572143349296#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-duigou1:before {
+    content: "\e600";
+}
+
+.app {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    .text {
+        font-size: 20px;
+        color: lightsalmon;
+        line-height: 200px;
+    }
+
+    .background {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        top: 0px;
+        z-index: -1;
+    }
+
+}
